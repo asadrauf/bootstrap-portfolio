@@ -1,0 +1,128 @@
+
+/*-----------------Start of Body background image--------------*/
+body{
+    background: url(../images/background.png);
+}
+
+/*-----------------End of Body background image--------------*/
+
+/* --------Start of header area--------- */
+
+.navbar-brand{
+    color: #edf2f4 !important;
+    text-shadow: 5px 5px 5px #2b2d42;
+    transition: all 0.5s ease-in-out;
+    background-color: #4aaaa5;
+    padding: 0px 20px 0px 10px;
+    margin-left: 136px;
+}
+
+.navbar-brand:hover{
+    color: #2b2d42 !important;
+    text-shadow:  #edf2f4;
+}
+
+
+.Sitem li a{
+    
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    background: #edf2f4;
+    border-radius: 15px;
+    
+}
+
+.active a{
+    background: #4aaaa5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #4aaaa5;
+    background-clip: text;
+}
+
+.Sitem li a:hover{
+    background: #4aaaa5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+ul a:hover {
+     background-color: #4aaaa5;
+     transform: scale(1.1);
+     transition: transform .4s ease;
+     
+   }  
+
+.navbar-nav{
+    margin-right: 125px;
+}
+
+
+/* --------End of header area--------- */
+
+.para-2{
+    margin-top: -30px;
+}
+
+
+.about-area{
+
+    margin: 10px 0px 0px 0px;
+}
+
+.title-area{
+    margin: 10px;
+}
+
+/*-----------------Start of portfolio page styling--------------*/
+
+.work {
+    position: relative;
+    float: left;
+    margin-bottom: -170px;
+ }
+
+.work img {
+        width: 100%;
+        height: 60%;
+       }
+
+.work h3 {
+       position: relative;
+       bottom: 100px;
+       width: 100%;
+       padding: 20px 20px 20px 0px;
+       color: #fff;
+       text-align: center;
+       background: #4aaaa5;
+      }
+
+      input[type=text],textarea {
+        width: 100%;
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 8px 30px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 5px;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #2f7e49;
+      }
+
+      /*-----------------End of portfolio page styling--------------*/
