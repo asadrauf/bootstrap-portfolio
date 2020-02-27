@@ -72,27 +72,33 @@
 <!--------Start of Portfolio Area-------->
       
 <div class="container-fluid">
-  <div class="row" id="img">
-    <div class="col-sm-6 work">
-      <img src="images/game1.png" alt="portfolio-1">
-      <h3>Hangman</h3>
+  <div class="button-group">
+    <button class="btn1" type="button" class="active">All</button>
+    <button class="btn1" type="button" data-filter=".project">Projects</button>
+    <button class="btn1" type="button" data-filter=".challenge">Challenge</button>
+  </div>
+  <div class="grid">
+  <div class="row project" id="img">
+    <div class="col-sm-6 work element-item project">
+      <img class="h3" src="images/game1.png" alt="portfolio-1">
+      <h3> <a  href="https://karna1014.github.io/Team3/">EventHub</a></h3>
     </div>
-        <div class="col-sm-6 work" >
-          <img src="images/game2.jpg" alt="portfolio-2">
-          <h3>RPS Game</h3>
+        <div class="col-sm-6 work element-item challenge" >
+          <img class="h3" src="images/game2.png" alt="portfolio-2">
+         <h3> <a  href="https://asadrauf.github.io/password-generator/">Password Generator</a></h3>
         </div>
   </div>
-  <div class="row" id="img2">
-    <div class="col-sm-6 work">
-      <img src="images/game3.jpg" alt="portfolio-2">
-      <h3>Trivia Game</h3>
+  <div class="row challenge" id="img2">
+    <div class="col-sm-6 work element-item challenge">
+      <img class="h3" src="images/game3.png" alt="portfolio-2">
+      <h3> <a  href="https://asadrauf.github.io/quizz-app/">Quizz App</a></h3>
     </div>
-    <div class="col-sm-6 work">
-      <img src="images/game3.jpg" alt="portfolio-2">
-      <h3>Trivia Game</h3>
+    <div class="col-sm-6 work element-item project">
+      <img class="h3" src="images/game1.png" alt="portfolio-2">
+      <h3> <a  href="https://karna1014.github.io/Team3/">EventHub</a></h3>
     </div>
   </div>
-  
+</div>
 </div>
           
       
@@ -118,8 +124,13 @@
 </footer>
 
 <!--------End of Footer Area-------->
+<!--Bootstraps jquery file-->
+<script src="jquery.3.4.1.js"></script>
 
+<!----------isotope vendor library------------->
+<script src="isotope.min.js"></script>  
 
+<script src="script.js"></script>
 </body>
 <!--------End main menu Area-------->
 
