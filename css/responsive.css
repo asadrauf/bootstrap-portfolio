@@ -213,7 +213,17 @@
         margin-top: 40px;
     }
 
+    .brand-area{
+        margin-right: 135px;
+    }
+
 }
 
 /* ------------ End of Responsive for 597px ---------------- */
+
+@media only screen and (max-width: 578px){
+    .navbar-brand{
+        width: 100%;
+    }
+}
 

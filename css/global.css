@@ -172,7 +172,7 @@ h2{
 
 .brand-area{
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 140px;
 }
 
 .language{
@@ -180,9 +180,29 @@ h2{
   height: 95px;
 }
 
-
-
 /* End Banner Area */
+
+/* Start Services Area */
+
+.services-area .services-title{
+  padding: 0 3rem;
+}
+
+.services-area .services-title h1{
+  font-size: 25px;
+}
+
+.services-area .services{
+  background: rgba(248, 252, 253, 0.973);
+  transition: .7s ease;
+  cursor: pointer;
+}
+
+.services:hover{
+  background-color: whitesmoke;
+}
+
+/* End Services Area */
     
 
     
