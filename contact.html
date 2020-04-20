@@ -26,14 +26,14 @@
 
 </head>
 <body>
-
+  <div id="particles-js">
 
      <!--------Start Header Area-------->
     
      <header class="header_area">
         <div class="main-menu">
         <nav class="navbar navbar-expand-sm fixed-top navbar-light" style="background-color: #fff">
-            <a class="navbar-brand" href="index.html"><h1 class="logo">Asad Rauf</h1></a>
+            <a class="navbar-brand" href="index.html"><h3 class="logo">Asad Rauf</h3></a>
             <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button> -->
@@ -78,21 +78,22 @@
 
   <section class="contact-area">
     <div class="container-fluid">
+      <form action="mailto:umiasad2017@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
       <div class="row">
             <div class="col-md-12">
-            <label for="fname">Name</label>
+            <label for="fname"><i class="fa fa-user" aria-hidden="true"></i>  Name</label>
             </div>
             <div class="col-md-12">
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
             </div>
             <div class="col-md-12">
-            <label for="fname">Email</label>
+            <label for="fname"><i class="fa fa-envelope" aria-hidden="true"></i>  Email</label>
             </div>
             <div class="col-md-12">
             <input type="text"  id="fname" name="firstname" placeholder="Your Email..">
             </div>
             <div class="col-md-12">
-            <label for="subject">Message</label>
+            <label for="subject"><i class="fa fa-comment" aria-hidden="true"></i>  Message</label>
             </div>
             <div class="col-md-12">
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
@@ -101,6 +102,7 @@
             <input type="submit" value="Submit"> <!--No funtionality behind the button-->
             </div>
       </div>
+    </form>
     </div>
   </section>
 
@@ -118,7 +120,7 @@
        <p class="para py-1">
           <a href="https://github.com/asadrauf?tab=repositories"><i class="fab fa-github"></i></a>
           Copyright © 2020 All | 
-          <a href="#"><span style="color: #4aaaa5;">Asad Rauf</span></a> 
+          <a href="#"><span style="color: #5f42ff;">Asad Rauf</span></a> 
           <a href="https://www.linkedin.com/in/asad-rauf-25a235b5/"><i class="fab fa-linkedin"></i></a>
        </p>
       </div>    
@@ -126,6 +128,14 @@
 </footer>
 
 <!--------End of Footer Area-------->
+<script src="particles.js"></script> 
+<script>
+  particlesJS.load('particles-js', 'particles.json', function() {
+    let el = document.querySelector(".particles-js-canvas-el"); 
+      el.setAttribute("height", "800px");
+      
+});
+</script>
 
 </body>
 <!--------End of main menu Area-------->

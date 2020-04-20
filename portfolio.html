@@ -26,13 +26,14 @@
 
 </head>
 <body>
+  <div id="particles-js">
 <!--------Start Header Area-------->
     
 <header class="header_area">
 
   <div class="main-menu">      
   <nav class="navbar navbar-expand-sm fixed-top navbar-light" style="background-color: #fff">
-      <a class="navbar-brand" href="index.html"><h1 class="logo">Asad Rauf</h1></a>
+      <a class="navbar-brand" href="index.html"><h3 class="logo">Asad Rauf</h3></a>
       <div class="collapse navbar-collapse" id="navbarNav">  
         <ul class="navbar-nav ml-auto Sitem">
           <li class="nav-item px-2">
@@ -79,25 +80,34 @@
   </div>
   <div class="grid">
   <div class="row project" id="img">
-    <div class="col-sm-6 work element-item project">
+    <div class="col-sm-4 work element-item project">
       <img class="h3" src="images/game1.png" alt="portfolio-1">
-      <h3> <a  href="https://karna1014.github.io/Team3/">EventHub</a></h3>
+      <h3 class="heading"> <a  href="https://karna1014.github.io/Team3/">EventHub</a></h3>
     </div>
-        <div class="col-sm-6 work element-item challenge" >
-          <img class="h3" src="images/game2.png" alt="portfolio-2">
-         <h3> <a  href="https://asadrauf.github.io/password-generator/">Password Generator</a></h3>
-        </div>
+    <div class="col-sm-4 work element-item project">
+      <img class="h3" src="images/project2pic.png" alt="portfolio-2">
+      <h3 class="heading"> <a  href="https://vast-headland-47194.herokuapp.com/">Quest for the Net</a></h3>
+    </div> 
+    <div class="col-sm-4 work element-item project">
+      <img class="h3" src="images/notetaker.png" alt="portfolio-2">
+      <h3 class="heading"> <a  href="https://ar-note-taker.herokuapp.com/">Note Taker</a></h3>
+    </div>   
   </div>
   <div class="row challenge" id="img2">
-    <div class="col-sm-6 work element-item challenge">
+    <div class="col-sm-4 work element-item challenge">
       <img class="h3" src="images/game3.png" alt="portfolio-2">
-      <h3> <a  href="https://asadrauf.github.io/quizz-app/">Quizz App</a></h3>
+      <h3 class="heading"> <a  href="https://asadrauf.github.io/quizz-app/">Quizz App</a></h3>
     </div>
-    <div class="col-sm-6 work element-item project">
+    <div class="col-sm-4 work element-item project">
       <img class="h3" src="images/game1.png" alt="portfolio-2">
-      <h3> <a  href="https://karna1014.github.io/Team3/">EventHub</a></h3>
+      <h3 class="heading"> <a  href="https://karna1014.github.io/Team3/">EventHub</a></h3>
+    </div>
+    <div class="col-sm-4 work element-item challenge" >
+      <img class="h3" src="images/burgerpic.png" alt="portfolio-2">
+     <h3 class="heading"> <a  href="https://asadrauf.github.io/password-generator/">Password Generator</a></h3>
     </div>
   </div>
+  
 </div>
 </div>
           
@@ -105,7 +115,7 @@
 <!--------End of Portfolio Area-------->
         
 </section>
- 
+</div>
 <!--------Start of Footer Area-------->
         
 <footer class="footer">
@@ -114,7 +124,7 @@
       <p class="para py-1" >
           <a href="https://github.com/asadrauf?tab=repositories"><i class="fab fa-github"></i></a>
            Copyright © 2020 |
-          <a href="#"><span style="color: #4aaaa5;">Asad Rauf</span></a> 
+          <a href="#"><span style="color: #5f42ff;">Asad Rauf</span></a> 
           <a href="https://www.linkedin.com/in/asad-rauf-25a235b5/"><i class="fab fa-linkedin"></i></a>
       </p>
     </div>    
@@ -129,6 +139,13 @@
 <script src="isotope.min.js"></script>  
 
 <script src="script.js"></script>
+<script src="particles.js"></script> 
+<script>
+  particlesJS.load('particles-js', 'particles.json', function() {
+    let el = document.querySelector(".particles-js-canvas-el"); 
+      el.setAttribute("height", "800px");
+});
+</script>
 </body>
 <!--------End main menu Area-------->
 

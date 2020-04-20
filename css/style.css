@@ -1,8 +1,14 @@
 
 /*-----------------Start of Body background image--------------*/
 body{
-    background: url(../images/background.png);
+    
+  background-color: #5f42ff;
+  
 }
+#particles-js{
+  height: 100vh;
+}
+
 
 /*-----------------End of Body background image--------------*/
 
@@ -10,55 +16,53 @@ body{
 
 .navbar-brand{
     color: #edf2f4 !important;
-    text-shadow: 5px 5px 5px #2b2d42;
-    transition: all 0.5s ease-in-out;
-    background-color: #4aaaa5;
-    padding: 0px 20px 0px 10px;
-    margin-left: 136px;
+    background-color: #2a2a72;
+    padding: 0px 15px 0px 10px;
+    
+}
+.navbar{
+  width: 960px;
+  margin: 0px auto;
+  border-radius: 5px;
 }
 
-.navbar-brand:hover{
-    color: #2b2d42 !important;
-    text-shadow:  #edf2f4;
-}
+
 
 
 .Sitem li a{
     
-    font-size: 16px;
+    font-size: 13px;
     text-transform: capitalize;
-    font-weight: 500;
+    
     text-decoration: none;
     display: block;
-    background: #edf2f4;
-    border-radius: 15px;
+    
+    
     
 }
 
 .active a{
-    background: #4aaaa5;
+    background: #5f42ff;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #4aaaa5;
+    -webkit-text-fill-color: #5f42ff;
     background-clip: text;
 }
 
 .Sitem li a:hover{
-    background: #4aaaa5;
+    background: #2a2a72;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 ul a:hover {
-     background-color: #4aaaa5;
+     background-color: #2a2a72;
      transform: scale(1.1);
      transition: transform .4s ease;
      
    }  
 
-.navbar-nav{
-    margin-right: 125px;
-}
+
 
 
 /* --------End of header area--------- */
@@ -82,25 +86,28 @@ ul a:hover {
 .work {
     position: relative;
     float: left;
-    margin-bottom: -170px;
+    margin-bottom: -100px;
  }
 
 .work img {
         width: 100%;
         height: 60%;
-        border: 5px solid whitesmoke;
+        border: 5px solid #ccc;
+        border-radius: 10px;
+        transition: background .6s ease;
        }
 
 .work h3 {
        position: relative;
        bottom: 100px;
        width: 100%;
-       padding: 1px 0px 5px 0px;
+       padding: 0px 0px 5px 0px;
        margin-top: 15px;
        color: white;
        text-align: center;
-       background: teal ;
-      
+       background: #5f42ff ;
+       opacity: 0.8; 
+       border-radius: 4px;
       }
 
       input[type=text],textarea {
@@ -115,7 +122,7 @@ ul a:hover {
       }
       
       input[type=submit] {
-        background-color: #4aaaa5;
+        background-color: #5f42ff;
         color: white;
         padding: 8px 30px;
         border: none;
@@ -125,7 +132,7 @@ ul a:hover {
       }
       
       input[type=submit]:hover {
-        background-color: #2f7e49;
+        background-color: #2a2a72;
       }
 
       .work a{
@@ -151,6 +158,6 @@ ul a:hover {
       }
       
       .btn1.active {
-        background-color: #666;
+        background-color: #5f42ff;
         color: white;
       }

@@ -60,15 +60,11 @@
         padding-bottom: 30px;
         
     }
-    .navbar-brand{
-        padding: 10px;
-        margin-left: -1px;
-        
+    .navbar{
+        width: 97%;
     }
-
-    .Sitem{
-        margin-right: -10px;
-        
+    .services{
+        margin: 5px;
     }
 
     .main-menu{
@@ -101,6 +97,10 @@
     #img2{
         margin-top: 30px;
     }
+    .brand-area{
+        width: 60%;
+    }
+    
     
 }
 
@@ -224,6 +224,27 @@
 @media only screen and (max-width: 578px){
     .navbar-brand{
         width: 100%;
+    }
+    .navbar{
+        width: 97%;
+    }
+    .heading{
+        font-size: xx-small;
+        font-weight: lighter;
+    }
+}
+
+@media only screen and (max-width: 574px){
+    .navbar-brand{
+        width: 30%;
+        margin-left: -360px;
+    }
+    .navbar{
+        width: 97%;
+    }
+    .heading{
+        font-size: xx-small;
+        font-weight: lighter;
     }
 }
 
