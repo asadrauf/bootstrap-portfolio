@@ -234,17 +234,55 @@
     }
 }
 
-@media only screen and (max-width: 574px){
+@media only screen and (max-width: 576px){
     .navbar-brand{
-        width: 30%;
-        margin-left: -360px;
+        width: 100%;
+       
     }
     .navbar{
         width: 97%;
+        height: 20%;
     }
-    .heading{
-        font-size: xx-small;
-        font-weight: lighter;
+    #navbarNav{
+        display: flex;
+        float: right;
     }
+    
 }
 
+
+
+@media only screen and (max-width: 574px){
+   
+    .navbar{
+        width: 97%;
+        display: flex;
+        flex-direction: row;
+        height: 20%;
+        
+    }
+    #navbarNav{
+        margin-right: 430px;
+
+    }
+    
+}
+
+@media only screen and (max-width: 520px){
+   
+    .para-1{
+        margin-left: 5px;
+        text-align: justify;
+    }
+    
+}
+
+@media only screen and (max-width: 400px){
+   
+    .para-1{
+        margin-left: 20px;
+        text-align: justify;
+    }
+    
+    
+}

@@ -44,7 +44,7 @@ html {
 .footer a:hover >i{
   transition: transform .4s ease;
   transform: scale(1.5);
-  color: #5f42ff;
+  color: whitesmoke;
 }
 
 h2{
