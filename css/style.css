@@ -108,6 +108,7 @@ ul a:hover {
        text-align: center;
        background: #5f42ff ;
        opacity: 0.8; 
+       font-size: medium;
        border-radius: 4px;
       }
 
@@ -177,6 +178,78 @@ ul a:hover {
        line-height: 1.2;
        font-size: smaller;
      }
+
+     .project-modal{
+       color: #5f42ff;
+     }
+
+     #myModal{
+      
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* spacing as needed */
+  padding: 20px 50px 20px 20px;
+
+  /* let it scroll */
+  overflow: auto;
+  
+     }
+
+     #myModal1{
+      
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    
+      /* spacing as needed */
+      padding: 20px 50px 20px 20px;
+    
+      /* let it scroll */
+      overflow: auto;
+      
+         }
+
+         #myModal2{
+      
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        
+          /* spacing as needed */
+          padding: 20px 50px 20px 20px;
+        
+          /* let it scroll */
+          overflow: auto;
+          
+             }
+
+     .tech-name{
+      background-color: #5b6467;
+
+       color: white;
+       border-radius: 5px;
+       border: 1px solid #000000;
+ 
+     }
+
+     .fa-github{
+       color: #5b6467;
+     }
+     .fa-github:hover{
+       color: silver;
+     }
+
+     .fa-globe{
+      color: #5b6467;
+    }
+    .fa-globe:hover{
+      color: silver;
+    }
 
      
 
