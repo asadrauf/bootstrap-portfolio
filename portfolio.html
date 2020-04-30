@@ -89,7 +89,7 @@
       <img class="h3" src="images/game1.png" alt="portfolio-1">
       <h3 class="heading">EventHub..
       <!-- Below we are using bootstrap modal -->
-      <a href="#" data-toggle="modal" data-target="#myModal">More</a>
+      <a href="#" data-toggle="modal" data-target="#myModal" class="info">More <i class="far fa-caret-square-up"></i></a>
       <!-- End of the modal here -->
       </h3>  
     </div>
@@ -97,7 +97,7 @@
       <img class="h3" src="images/project2pic.png" alt="portfolio-2">
       <h3 class="heading">Quest for the Net..
         <!-- Below we are using bootstrap modal -->
-        <a href="#" data-toggle="modal" data-target="#myModal1">More</a>
+        <a href="#" data-toggle="modal" data-target="#myModal1" class="info">More <i class="far fa-caret-square-up"></i></a>
         <!-- End of the modal here -->
         </h3>  
     </div> 
@@ -105,7 +105,7 @@
       <img class="h3" src="images/notetaker.png" alt="portfolio-2">
       <h3 class="heading">Note Taker..
         <!-- Below we are using bootstrap modal -->
-        <a href="#" data-toggle="modal" data-target="#myModal2">More</a>
+        <a href="#" data-toggle="modal" data-target="#myModal2" class="info">More <i class="far fa-caret-square-up"></i></a>
         <!-- End of the modal here -->
         </h3>
     </div>   
@@ -113,18 +113,29 @@
   <div class="row challenge" id="img2">
     <div class="col-sm-4 work element-item challenge">
       <img class="h3" src="images/game3.png" alt="portfolio-2">
-      <h3 class="heading"> <a  href="https://asadrauf.github.io/quizz-app/">Quizz App</a></h3>
+      <h3 class="heading">Quizz App..
+        <!-- Below we are using bootstrap modal -->
+        <a href="#" data-toggle="modal" data-target="#myModal3" class="info">More <i class="far fa-caret-square-up"></i></a>
+        <!-- End of the modal here -->
+        </h3>
     </div>
     <div class="col-sm-4 work element-item project">
-      <img class="h3" src="images/game1.png" alt="portfolio-2">
-      <h3 class="heading"> <a  href="https://karna1014.github.io/Team3/">EventHub</a></h3>
+      <img class="h3" src="images/burgerpic.png" alt="portfolio-2">
+      <h3 class="heading">Eat The Burger..
+        <!-- Below we are using bootstrap modal -->
+        <a href="#" data-toggle="modal" data-target="#myModal4" class="info">More <i class="far fa-caret-square-up"></i></a>
+        <!-- End of the modal here -->
+        </h3>
     </div>
     <div class="col-sm-4 work element-item challenge" >
-      <img class="h3" src="images/burgerpic.png" alt="portfolio-2">
-     <h3 class="heading"> <a  href="https://asadrauf.github.io/password-generator/">Password Generator</a></h3>
+      <img class="h3" src="images/game2.png" alt="portfolio-2">
+      <h3 class="heading">Password Generator..
+        <!-- Below we are using bootstrap modal -->
+        <a href="#" data-toggle="modal" data-target="#myModal5" class="info">More <i class="far fa-caret-square-up"></i></a>
+        <!-- End of the modal here -->
+        </h3>
     </div>
   </div>
-  
   
 </div>
 </div>
@@ -230,6 +241,72 @@
       <div class="modal-footer">
         <a href="https://github.com/asadrauf/note-taker" style="color: gainsboro;"><i class="fab fa-github fa-2x"></i></a> 
         <a href="https://ar-note-taker.herokuapp.com/" style="color: gainsboro;"><i class="fas fa-globe fa-2x"></i></a> 
+        <input class="btn btn-light" data-dismiss="modal" value="close">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal3">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="project-modal">Quizz App</h1>
+      </div>
+      <div class="modal-body">
+        Using fundamental HTML, CSS, and JavaScript skills to build a quiz application. This application will be able to load questions from a 3rd an object array, track and display high scores, and so much more! I am using HTML5 Local Storage to store my user score and username that will be displaying in the view highscore page
+        <div>
+         <h5 class="modal-technologies">Technologies Used</h5>
+         <span class="tech-name">Javascript</span> <span class="tech-name">Local Storage API</span> <span class="tech-name">HTML5</span> <span class="tech-name">CSS3</span> <span class="tech-name">Objects</span> <span class="tech-name">Arrays</span> 
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/asadrauf/quizz-app" style="color: gainsboro;"><i class="fab fa-github fa-2x"></i></a> 
+        <a href=" https://asadrauf.github.io/quizz-app/" style="color: gainsboro;"><i class="fas fa-globe fa-2x"></i></a> 
+        <input class="btn btn-light" data-dismiss="modal" value="close">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal4">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="project-modal">Eat the Burger</h1>
+      </div>
+      <div class="modal-body">
+        Password Generator app is for generating secure passwords using HTML ASCII code characters. You are given options to choose which characters your password should contain. You will have to Enter the number above 8 to generate your desired password. This app will tell you wheather your password is strong or very strong based on the length the password
+        <div>
+         <h5 class="modal-technologies">Technologies Used</h5>
+         <span class="tech-name">MySql</span> <span class="tech-name">Nodejs</span> <span class="tech-name">Handlebars</span> <span class="tech-name">MVC Pattern</span> <span class="tech-name">javaScript</span> <span class="tech-name">CSS3</span> <span class="tech-name">DOM Elements</span> 
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/asadrauf/burger" style="color: gainsboro;"><i class="fab fa-github fa-2x"></i></a> 
+        <a href=" https://desolate-reaches-44277.herokuapp.com/" style="color: gainsboro;"><i class="fas fa-globe fa-2x"></i></a> 
+        <input class="btn btn-light" data-dismiss="modal" value="close">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal5">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="project-modal">Password Generator</h1>
+      </div>
+      <div class="modal-body">
+        Password Generator app is for generating secure passwords using HTML ASCII code characters. You are given options to choose which characters your password should contain. You will have to Enter the number above 8 to generate your desired password. This app will tell you wheather your password is strong or very strong based on the length the password
+        <div>
+         <h5 class="modal-technologies">Technologies Used</h5>
+         <span class="tech-name">Javascript</span> <span class="tech-name">Bootstrap</span> <span class="tech-name">HTML5</span> <span class="tech-name">CSS3</span> <span class="tech-name">Arrays</span> <span class="tech-name">EventListner</span> <span class="tech-name">DOM Elements</span> 
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/asadrauf/password-generator" style="color: gainsboro;"><i class="fab fa-github fa-2x"></i></a> 
+        <a href=" https://asadrauf.github.io/password-generator/" style="color: gainsboro;"><i class="fas fa-globe fa-2x"></i></a> 
         <input class="btn btn-light" data-dismiss="modal" value="close">
       </div>
     </div>

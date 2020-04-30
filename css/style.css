@@ -92,10 +92,10 @@ ul a:hover {
 
 .work img {
         width: 100%;
-        height: 60%;
+        height: 55%;
         border: 5px solid #ccc;
         border-radius: 10px;
-        transition: background .6s ease;
+        
        }
 
 .work h3 {
@@ -228,6 +228,51 @@ ul a:hover {
           
              }
 
+             #myModal3{
+      
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            
+              /* spacing as needed */
+              padding: 20px 50px 20px 20px;
+            
+              /* let it scroll */
+              overflow: auto;
+              
+                 }
+
+                 #myModal4{
+      
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                
+                  /* spacing as needed */
+                  padding: 20px 50px 20px 20px;
+                
+                  /* let it scroll */
+                  overflow: auto;
+                  
+                     }
+
+                 #myModal5{
+      
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                
+                  /* spacing as needed */
+                  padding: 20px 50px 20px 20px;
+                
+                  /* let it scroll */
+                  overflow: auto;
+                  
+                     }
+
      .tech-name{
       background-color: #5b6467;
 
@@ -249,6 +294,17 @@ ul a:hover {
     }
     .fa-globe:hover{
       color: silver;
+    }
+
+    .info{
+      background-color: white;
+      color: black !important;
+      border-radius: 5px;
+      font-size: medium !important;
+    }
+
+    .info:hover{
+      color: #5f42ff !important;
     }
 
      
