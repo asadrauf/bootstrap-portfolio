@@ -301,6 +301,7 @@ ul a:hover {
       color: black !important;
       border-radius: 5px;
       font-size: medium !important;
+      padding: 0px 8px 3px 8px;
     }
 
     .info:hover{
